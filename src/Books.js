@@ -8,7 +8,9 @@ export default class Books extends Component {
   constructor() {
     super();
     this.state = {
-      books: [],
+      books: [
+        { name: 'test', author: 'test' }
+      ],
     };
   }
 
@@ -24,6 +26,7 @@ export default class Books extends Component {
     return (
       <div>
         <AddBook books={books} addBook={book =>this.handleAddBook(book)}/>
+        {books.map(book => <p>{book.name}</p>)}
       </div>
     );
     
