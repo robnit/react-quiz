@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-export default class AddBook extends Component {
+export default class AddBook extends PureComponent {
 
   render() {
 
@@ -24,6 +24,5 @@ export default class AddBook extends Component {
         </form>
       </div>
     );
-
   }
 }
