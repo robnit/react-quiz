@@ -7,7 +7,7 @@ export default class Books extends Component {
     super();
     this.state = {
       books: [
-        { title: 'My Book', author: 'John Doe' }
+        { title: 'My Book :)', author: 'John Doe' }
       ],
     };
   }
