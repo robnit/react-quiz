@@ -9,14 +9,15 @@ export default class Books extends Component {
     super();
     this.state = {
       books: [
-        { name: 'test', author: 'test' }
+        { title: 'test', author: 'test' }
       ],
     };
   }
 
   handleAddBook(newBook) {
     const newState = addBook(this.state, newBook);
-    this.setState(newState);
+    console.log('new state is', newState);
+    return this.setState(newState);
   }
 
 
@@ -26,7 +27,9 @@ export default class Books extends Component {
     return (
       <div>
         <AddBook books={books} addBook={book =>this.handleAddBook(book)}/>
-        {books.map(book => <p>{book.name}</p>)}
+        <ul>
+          {books.map((book, i) => <li key={i} >Title: {book.title}    Author:{book.author}</li>)}
+        </ul>
       </div>
     );
     
