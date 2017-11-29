@@ -20,7 +20,7 @@ export default class AddBook extends Component {
         }}>
           <input name="title" placeholder="Title" />
           <input name="author" placeholder="Author" />
-          <button type="submit">Add Image</button>
+          <button type="submit">Add Book</button>
         </form>
       </div>
     );
