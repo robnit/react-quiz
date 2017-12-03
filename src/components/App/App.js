@@ -1,7 +1,8 @@
 import React from 'react'
+import Books from 'components/Books/Books'
 
 const App = () => (
-  <h1>REACT QUIZ</h1>
+  <Books/>
 )
 
 export default App

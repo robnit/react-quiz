@@ -1,10 +1,10 @@
 import React from 'react'
-import App from 'components/App/App'
+import AddBook from 'components/AddBook/AddBook'
 import { shallow } from 'enzyme' 
 
 describe('app', () => {
   it('should match snapshots', () => {
-    const wrapper = shallow(<App/>)
+    const wrapper = shallow(<AddBook/>)
    
     expect(wrapper).toMatchSnapshot()
   })
