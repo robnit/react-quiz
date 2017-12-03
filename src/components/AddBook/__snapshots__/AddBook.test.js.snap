@@ -2,6 +2,6 @@
 
 exports[`app should match snapshots 1`] = `
 <h1>
-  BOOKS
+  AddBooks
 </h1>
 `;

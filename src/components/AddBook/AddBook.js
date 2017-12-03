@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Books = () => (
-  <h1>BOOKS</h1>
+const AddBooks = () => (
+  <h1>AddBooks</h1>
 )
 
-export default Books
+export default AddBooks
