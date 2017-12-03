@@ -1,10 +1,10 @@
 import React from 'react'
 import Books from 'components/Books/Books'
-import { shallow } from 'enzyme' 
+import { mount } from 'enzyme' 
 
 describe('book', () => {
   it('should match snapshots', () => {
-    const wrapper = shallow(<Books/>)
+    const wrapper = mount(<Books/>)
    
     expect(wrapper).toMatchSnapshot()
   })

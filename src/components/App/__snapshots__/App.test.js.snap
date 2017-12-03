@@ -1,3 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app should match snapshots 1`] = `<Books />`;
+exports[`app should match snapshots 1`] = `
+<App>
+  <h1>
+    REACT QUIZG
+  </h1>
+  <Books>
+    <AddBooks>
+      <h1>
+        AddBooks
+      </h1>
+    </AddBooks>
+    <Book>
+      <h1>
+        BOOKS
+      </h1>
+    </Book>
+  </Books>
+</App>
+`;
